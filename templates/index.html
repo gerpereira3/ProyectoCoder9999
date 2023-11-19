@@ -1,0 +1,10 @@
+{%  extends 'base.html' %}
+
+{% block cambio %}
+    {% if curso %}
+        <p>El curso es  {{ curso.nombre }}</p>
+    {% else %}
+        No hay curso
+    {% endif %}
+    <h1>Página de Fede</h1>
+{% endblock %}
