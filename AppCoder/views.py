@@ -7,7 +7,7 @@ def mostrar_cursos(request):
     cursos = Curso.objects.all()
     contexto = {
         "cursos": cursos,
-        "nombre": "German"
+        "nombre": "Fede"
     }
     return render(request, "AppCoder/cursos.html", contexto)
 
@@ -24,5 +24,7 @@ def crear_curso(request):
 
 def show_html(request):
     curso = Curso.objects.first()
-    contexto = {"curso": curso, "nombre": "German"}
+    contexto = {"curso": curso, "nombre": "Fede"}
     return render(request, 'index.html', contexto)
+
+

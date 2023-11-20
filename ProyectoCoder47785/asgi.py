@@ -1,5 +1,5 @@
 """
-ASGI config for ProyectoCoder project.
+ASGI config for ProyectoCoder47785 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ProyectoCoder.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ProyectoCoder47785.settings')
 
 application = get_asgi_application()
